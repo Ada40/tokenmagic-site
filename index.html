@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TokenMagic — a token of our appreciation</title>
+<style>
+:root {
+  --bg: #0b0e14;
+  --fg: #e6e9f0;
+  --mut: #9aa3b2;
+  --acc: #6c8cff;
+  --card: #151a24;
+}
+* { box-sizing: border-box; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+header { padding: 96px 0 64px; text-align: center; }
+header h1 { font-size: 56px; letter-spacing: -1px; font-weight: 800; }
+header h1 .m { color: var(--acc); }
+.tag { color: var(--mut); font-size: 20px; margin-top: 8px; }
+.bignum { font-size: 110px; font-weight: 800; color: var(--acc); text-align: center; line-height: 1; }
+.bigsub { text-align: center; color: var(--mut); font-size: 18px; margin: 8px 0 48px; }
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 28px 32px;
+  margin-bottom: 24px;
+}
+.card h2 { margin-bottom: 12px; font-size: 24px; }
+.card p { color: var(--mut); }
+.magic { text-align: center; font-size: 28px; padding: 48px 0; }
+.magic span { color: var(--acc); font-style: italic; }
+.tiers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0 32px;
+}
+.tier {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 24px;
+}
+.tier.hot { border: 2px solid var(--acc); }
+.tier .fpill {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  background: var(--acc);
+  color: #0b0e14;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.tier h3 { font-size: 22px; margin-bottom: 4px; }
+.tier .p { font-size: 28px; font-weight: 700; margin: 12px 0; }
+.tier .p small { font-size: 16px; color: var(--mut); font-weight: 400; }
+.tier .then { font-size: 13px; color: var(--mut); margin-top: 10px; margin-bottom: 16px; }
+.tier ul { list-style: none; padding: 0; color: var(--mut); }
+.tier li { margin: 6px 0; }
+.cta {
+  display: block;
+  text-align: center;
+  background: var(--acc);
+  color: #0b0e14;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  margin: 32px 0 12px;
+}
+.trial { text-align: center; color: var(--mut); margin-bottom: 24px; }
+.bar {
+  background: #1d2433;
+  border-radius: 10px;
+  height: 14px;
+  margin: 16px 0 8px;
+  overflow: hidden;
+}
+.bar .fill {
+  background: var(--acc);
+  height: 100%;
+  border-radius: 10px;
+  width: 14%;
+}
+footer {
+  text-align: center;
+  color: var(--mut);
+  font-size: 14px;
+  padding: 48px 0 64px;
+}
+.venmo-row {
+  text-align: center;
+  margin: 24px 0;
+  color: var(--mut);
+}
+.venmo-row a { color: var(--acc); }
+@media (max-width: 640px) {
+  .tiers { grid-template-columns: 1fr; }
+  header h1 { font-size: 40px; }
+  .bignum { font-size: 72px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Token<span class="m">Magic</span></h1>
+    <p class="tag">a token of our appreciation</p>
+  </header>
+
+  <div class="bignum">72%</div>
+  <p class="bigsub">fewer input tokens. Measured across 175 real agentic coding requests.<br>Same code. Same results. Just less bill.</p>
+
+  <div class="card">
+    <h2>Your token bill is too big.</h2>
+    <p>TokenMagic makes it smaller. Same code, same results — up to 72% fewer input tokens, measured across 175 real agentic coding requests. Drop-in. No workflow changes.</p>
+  </div>
+
+  <div class="magic">How does it work?<br><span>Magic.</span></div>
+
+  <div class="card">
+    <h2>Good for your wallet. Good for the grid.</h2>
+    <p>Every million tokens TokenMagic prunes saves roughly half a kilowatt-hour of data-center energy — plus the carbon and cooling water behind it. At 72% fewer input tokens, that adds up fast across every customer. Less bill, less footprint. Same magic.</p>
+  </div>
+
+  <div class="card">
+    <h2>Try it free for 3 days</h2>
+    <p>No credit card. Plug it in, run a real session, watch your token meter drop. If you don't see the savings, walk away — the numbers do the selling.</p>
+  </div>
+
+  <div class="card">
+    <h2>⚡ Founder pricing — lock it for life</h2>
+    <p>The first 50 members lock in the prices below forever. Miss a payment? You get a 7-day grace period to reactivate and keep your locked price — miss that window and your price moves to the current rate.</p>
+    <div class="bar"><div class="fill" style="width:14%"></div></div>
+    <p><strong>7 of 50</strong> founder spots claimed</p>
+  </div>
+
+  <div class="tiers">
+    <div class="tier">
+      <div class="fpill">Founder</div>
+      <h3>Solo</h3>
+      <div class="p">$79<small>/mo</small></div>
+      <div class="then">Locked for life.</div>
+      <ul>
+        <li>1 developer</li>
+        <li>Full TokenMagic optimization</li>
+        <li>Usage dashboard</li>
+      </ul>
+    </div>
+    <div class="tier hot">
+      <div class="fpill">Founder</div>
+      <h3>Team</h3>
+      <div class="p">$299<small>/mo</small></div>
+      <div class="then">Locked for life · regular $999/mo after first 50</div>
+      <ul>
+        <li>Up to 10 developers</li>
+        <li>Strongest optimization</li>
+        <li>Shared analytics</li>
+        <li>Priority support</li>
+      </ul>
+    </div>
+    <div class="tier">
+      <div class="fpill">Founder</div>
+      <h3>Enterprise</h3>
+      <div class="p">$500<small>+/mo</small></div>
+      <div class="then">Locked for life · regular $2,500+/mo after first 50</div>
+      <ul>
+        <li>Unlimited seats</li>
+        <li>Custom limits</li>
+        <li>SSO & audit logs</li>
+        <li>Dedicated support</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Prove it, get rewarded</h2>
+    <p>Running TokenMagic? Send us your numbers — tokens saved, money saved — and we'll thank you with free months or security credit, depending on your plan. We publish testimonials only with your explicit permission, attributed to you. Recommend a friend and we'll track it: their signup earns you credit too.</p>
+  </div>
+
+  <div class="card">
+    <h2>Think you can break it? Please try.</h2>
+    <p>Crack the vault and TokenMagic is yours <strong>FREE FOR LIFE</strong>. One lifetime win per player — only a few winners will ever be accepted, and this stands apart from our regular plans.</p>
+    <p style="margin-top:12px">The vault is a game — play all you want. Every attempt is logged and studied, and every attack teaches the locks something new, so they get stronger while you play. Nobody else does this. The product locks beside it are not a game: abuse those and 3-6-9 answers — three strikes you're flagged, six you're throttled, nine you're banned.</p>
+    <p style="margin-top:12px">And if our security impressed you more than the prize — ask about our security pricing (<a href="mailto:hello@tokenmagic.dev" style="color:var(--acc)">hello@tokenmagic.dev</a>).</p>
+  </div>
+
+  <a class="cta" href="mailto:hello@tokenmagic.dev?subject=TokenMagic%203-day%20trial">Start your 3-day trial</a>
+  <p class="trial">No card. No commitment. Just fewer tokens.</p>
+
+  <div class="venmo-row">
+    Prefer Venmo? Pay your first month with Venmo — <a href="https://venmo.com/u/Adam-Hatchett" target="_blank" rel="noopener">@Adam-Hatchett</a>
+  </div>
+
+  <footer>
+    TokenMagic — a token of our appreciation.<br>
+    © 2026. The mechanism is proprietary. The savings are not.
+  </footer>
+</div>
+</body>
+</html>
